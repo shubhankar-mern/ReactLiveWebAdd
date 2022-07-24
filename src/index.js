@@ -13,7 +13,7 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/home' element={<App />} />
+          <Route exact path='/' element={<App />} />
           <Route exact path='/details' element={<Detailspage />} />
         </Routes>
       </BrowserRouter>

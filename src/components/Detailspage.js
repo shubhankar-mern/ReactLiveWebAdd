@@ -28,7 +28,7 @@ const Detailspage = () => {
   const navigate = useNavigate();
   console.log('Data :', location.state.data);
   const handleHome = () => {
-    navigate('/home');
+    navigate('/');
   };
   const handleClick = (e, v) => {
     console.log('task change :', e);

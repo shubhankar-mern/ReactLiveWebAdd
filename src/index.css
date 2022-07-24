@@ -1,13 +1,102 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.main-box{
+  
+  margin-left: 30%;
+}
+.heading-box{
+  border: 2px solid black;
+height: 250px;
+width:500px;
+}
+.heading-box>img{
+  height: 250px;
+  width: 500px;
+}
+.input-box{
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 2px 2px rgba(14, 13, 13, 0.932);
+width: 500px;
+height: 50px;
+}
+.display-box{
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 2px 2px rgba(14, 13, 13, 0.932);
+width: 500px;
+min-height: 250px;
+height: auto;
+
+}
+#textInput{
+height: 20px;
+width: 270px;
+margin-top: 15px;
+margin-left: 15px;
+border-radius: 20px;
+font-family: 'Oswald', sans-serif;
+}
+#timeInput{
+  margin-left: 5px;
+  height: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+#btn-submit{
+  height: 25px;
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+#btn-task{
+  width: 80px;
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+#btn-task:hover{
+  cursor: pointer;
+}
+
+#btn-submit:hover{
+  cursor: pointer;
+}
+.display-tasklist{
+   border: 2px solid black;
+   display: flex;
+   justify-content: space-between;
+   color: grey;
+   background-color: black;
+}
+.dataDetails:hover{
+  cursor: pointer;
+  color:#fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #fff,
+               0 0 80px #fff,
+               0 0 120px #fff,
+               0 0 160px #fff
+}
+.display-taskItems{
+  display: flex;
+   justify-content: space-between;
+}
+.details-display-box{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 2px rgba(14, 13, 13, 0.932);
+ 
+  width: 500px;
+  
+  height: auto;
 }
